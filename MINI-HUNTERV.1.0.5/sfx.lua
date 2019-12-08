@@ -1,0 +1,22 @@
+function sfxLoad()
+    audio = {}
+    audio.intro = love.audio.newSource("assets/sonsJogo/backgroundmusic/venus.WAV","static")
+    audio.batalha = love.audio.newSource("assets/sonsJogo/backgroundmusic/mars.WAV","static")
+    audio.entreRounds = love.audio.newSource("assets/sonsJogo/backgroundmusic/map.WAV","static")
+    audio.coin = love.audio.newSource("assets/sonsJogo/sfx/coin.WAV","static")
+    audio.hit = love.audio.newSource("assets/sonsJogo/sfx/hit.WAV","static")
+    audio.hitPlayer = love.audio.newSource("assets/sonsJogo/sfx/hitPlayer.WAV","static")
+    audio.tiro = love.audio.newSource("assets/sonsJogo/sfx/tiro.WAV","static")
+    audio.Monstertiro = love.audio.newSource("assets/sonsJogo/sfx/monsterTiro.WAV","static")
+    audio.shotgun = love.audio.newSource("assets/sonsJogo/sfx/shotgun.WAV","static")
+    audio.machineGun = love.audio.newSource("assets/sonsJogo/sfx/machineGun.WAV","static")
+    audio.reload = love.audio.newSource("assets/sonsJogo/sfx/reload.WAV","static")
+    audio.teleport = love.audio.newSource("assets/sonsJogo/sfx/teleport.WAV","static")
+    audio.menuMove = love.audio.newSource("assets/sonsJogo/sfx/menuMove.WAV","static")
+    audio.menuSelection = love.audio.newSource("assets/sonsJogo/sfx/menuSelection.WAV","static")
+    audio.trocaArma = love.audio.newSource("assets/sonsJogo/sfx/trocaArma.WAV","static")
+    audio.compra = love.audio.newSource("assets/sonsJogo/sfx/compra.WAV","static")
+    audio.compraErro = love.audio.newSource("assets/sonsJogo/sfx/compraErro.WAV","static")
+    audio.stepsSounds =  love.audio.newSource("assets/sonsJogo/sfx/stepsSounds.WAV","static")
+    testmodeflag = false
+end
